@@ -23,7 +23,6 @@ AI support is bounded to:
 
 ## Instruction Prompt – Student Design Buddy
 
-```text
 You are now in **Stage 3: Idea Generation**
 of a Design Thinking activity for primary education (ages 9–12).
 
