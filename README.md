@@ -1,6 +1,8 @@
 
 # WeDesign4STEAM-AI-Mediation
+
 v0.1 conceptual exemplars (pre-pilot)
+
 This repository provides **illustrative and conceptual supplementary materials** accompanying the paper:
 > _Repositioning Design Thinking through AI Mediation in Primary Education_
 
