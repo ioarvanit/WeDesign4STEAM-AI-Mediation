@@ -1,42 +1,26 @@
-## Role-Based AI Mediation (Illustrative)
+## Role-Based “Agents” (Copy–Paste Role Prompts)
 
-This folder provides **illustrative role descriptions** for AI mediation in the
-AI-enhanced WeDesign4STEAM methodology, as described in the paper
-“Repositioning Design Thinking through AI Mediation in Primary Education”.
+This folder provides **role prompts** that can be pasted into a conversational AI tool
+(e.g., ChatGPT or another LLM) to constrain behavior during an AI-mediated
+WeDesign4STEAM session.
 
-### What these roles are
-The “agents” presented here are **not autonomous systems** and do not require
-special software or orchestration.
+### What these are
+- **Role prompts** (instruction blocks) that define a stable behavior pattern.
+- They can be used as:
+  - a system prompt (where supported), or
+  - the first message in a new chat.
 
-They are:
-- role descriptions,
-- behavioral constraints,
-- and interaction guidelines
+### What these are not
+- Not autonomous multi-agent systems.
+- Not validated scripts.
+- Not empirically tested in classroom trials yet.
 
-that can be enacted using standard conversational AI tools (e.g. ChatGPT),
-by pasting or embedding role instructions at the beginning of an interaction.
+### Why include them
+They make the repositioning **operationally testable** without requiring a dedicated app:
+the “app-like” structure comes from stable roles + stage prompts + agreed output formats.
 
-### What these roles are not
-These materials are:
-- not validated instructional scripts,
-- not empirically tested prompts,
-- not required components of the methodology.
-
-They are provided as **operational exemplars** to clarify how AI mediation can be
-structured without a dedicated application.
-
-### Why role-based mediation
-Role-based constraints help ensure that:
-- AI behavior remains aligned with Design Thinking intent,
-- student agency and authorship are preserved,
-- AI does not drift into evaluative or directive roles,
-- interactions remain developmentally appropriate.
-
-Educators and researchers may adapt, simplify, or omit these roles depending on:
-- age group,
-- context (formal or informal),
-- technological setup,
-- and facilitation style.
-
-Example prompt snippets included in the role files are **illustrative only** and
-serve to demonstrate tone, scope, and boundaries rather than to prescribe usage.
+### How to use in practice (minimal setup)
+- Each student starts one chat with the **Student Design Buddy** role prompt.
+- The facilitator starts one chat with the **Facilitator Coach** role prompt.
+- At each design stage, you paste a **stage prompt** (see /03-stage-prompts/) to
+  set the current intent and output format
